@@ -229,17 +229,6 @@ Put a reverse proxy in front (Nginx, IIS with URL Rewrite/ARR, or Caddy) that fo
 ### Optional: custom short domain
 Buy a short domain, add it in your host's custom-domain settings, create the DNS record they show you, then set `BASE_URL=https://your-short-domain.com`.
 
-### GitHub Pages static preview
-
-The `docs/` folder contains a static preview that GitHub Pages can serve:
-
-1. Push the project to GitHub.
-2. In the repository, open **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and the `/docs` folder, then save.
-4. Open the Pages URL shown on that settings page.
-
-GitHub Pages only serves static files. This preview shows the interface, but signing in, shortening links, and other account features require the Node.js server and SQL Server database to be deployed separately. The `public/` folder remains the frontend served by the full application.
-
 ### Before you go public
 - Use **https** and set `BASE_URL` to the https address.
 - Use a strong password and the limited `linklite_user` login, not `sa`.
