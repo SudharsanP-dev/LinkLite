@@ -239,7 +239,7 @@ This is a static interface preview only. Sign-in, URL shortening, and account fe
 ### Temporary live demo
 
 The full app is temporarily available at:
-https://stereo-sur-vermont-astronomy.trycloudflare.com
+https://sept-majority-parts-individuals.trycloudflare.com
 
 This free quick-tunnel link is temporary and may change or stop working when the tunnel or the computer running LinkLite stops. Keep the app and tunnel running while sharing it. Do not treat this as a permanent production URL.
 
