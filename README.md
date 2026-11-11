@@ -229,6 +229,13 @@ Put a reverse proxy in front (Nginx, IIS with URL Rewrite/ARR, or Caddy) that fo
 ### Optional: custom short domain
 Buy a short domain, add it in your host's custom-domain settings, create the DNS record they show you, then set `BASE_URL=https://your-short-domain.com`.
 
+### View the interface on GitHub Pages
+
+The GitHub Pages preview is deployed from `docs/` by the **Deploy GitHub Pages** workflow. After the first successful workflow run, visit:
+https://sudharsanp-dev.github.io/LinkLite/
+
+This is a static interface preview only. Sign-in, URL shortening, and account features require the Node.js server and SQL Server database; run the full app locally with `npm run dev` or deploy its backend separately.
+
 ### Before you go public
 - Use **https** and set `BASE_URL` to the https address.
 - Use a strong password and the limited `linklite_user` login, not `sa`.
